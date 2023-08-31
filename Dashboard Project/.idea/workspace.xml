@@ -4,38 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="069c853f-9c3b-4ed7-9e42-3aad3d16cf69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.ipynb_checkpoints/Example-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1__Home.py" afterPathEscaped="$PROJECT_DIR$/1_🔔_Home.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Example.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images_and_logo/Logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images_and_logo/config.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images_and_logo/map_of_india.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images_and_logo/plus_gsm-logo1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csv_files/agg_trans.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csv_files/agg_user.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csv_files/dist_lat_long.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csv_files/map_trans.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csv_files/map_user.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csv_files/top_trans_dist.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csv_files/top_trans_pin.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csv_files/top_user_dist.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csv_files/top_user_pin.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/generate_keys.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/query.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Web Scrapping/.ipynb_checkpoints/Basic_Scrapping-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Web Scrapping/.ipynb_checkpoints/Twitter_scrapping-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Web Scrapping/.ipynb_checkpoints/Untitled-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Web Scrapping/Basic_Scrapping.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Web Scrapping/LICENSE.chromedriver" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Web Scrapping/Twitter_scrapping.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Web Scrapping/Untitled.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Web Scrapping/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Web Scrapping/quotes.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Web Scrapping/scrapped_quotes.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Web Scrapping/scrapped_with_selenium_quotes.csv" afterDir="false" />
-    </list>
+    <list default="true" id="069c853f-9c3b-4ed7-9e42-3aad3d16cf69" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
