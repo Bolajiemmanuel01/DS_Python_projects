@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="069c853f-9c3b-4ed7-9e42-3aad3d16cf69" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.ipynb_checkpoints/Example-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1__Home.py" afterPathEscaped="$PROJECT_DIR$/1_🔔_Home.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Example.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images_and_logo/Logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images_and_logo/config.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images_and_logo/map_of_india.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images_and_logo/plus_gsm-logo1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csv_files/agg_trans.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csv_files/agg_user.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csv_files/dist_lat_long.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csv_files/map_trans.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csv_files/map_user.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csv_files/top_trans_dist.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csv_files/top_trans_pin.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csv_files/top_user_dist.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csv_files/top_user_pin.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generate_keys.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/query.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Scrapping/.ipynb_checkpoints/Basic_Scrapping-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Scrapping/.ipynb_checkpoints/Twitter_scrapping-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Scrapping/.ipynb_checkpoints/Untitled-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Scrapping/Basic_Scrapping.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Scrapping/LICENSE.chromedriver" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Scrapping/Twitter_scrapping.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Scrapping/Untitled.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Scrapping/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Scrapping/quotes.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Scrapping/scrapped_quotes.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Web Scrapping/scrapped_with_selenium_quotes.csv" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2TTFQ2PkouBSnGOBJQoQyKokpGk" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.tools&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="generate_keys" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Dashboard Project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/generate_keys.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Dashboard Project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.generate_keys" />
+        <item itemvalue="Python.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="069c853f-9c3b-4ed7-9e42-3aad3d16cf69" name="Changes" comment="" />
+      <created>1691059143874</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1691059143874</updated>
+    </task>
+    <servers />
+  </component>
+</project>
