@@ -1,15 +1,14 @@
 import mysql.connector
-import streamlit as st
 from getpass import getpass
 import pandas as pd
 
 ##connection
-# password = getpass("Enter your password: ")
+password = getpass("Enter your password: ")
 conn = mysql.connector.connect(
     host='localhost',
     port='3306',
     user='root',
-    password=f'Miraclebolaji4sure1999.',  # {password}
+    password=f'{password}',  #
     db='phone_pulse'
 )
 

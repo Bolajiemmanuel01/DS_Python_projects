@@ -1,4 +1,5 @@
 import io
+import query
 import streamlit as st
 import pandas as pd
 from ydata_profiling import ProfileReport
@@ -10,14 +11,17 @@ import requests
 from streamlit_lottie import st_lottie
 from streamlit_pandas_profiling import st_profile_report
 
-agg_trans_df = pd.read_csv(r'csv_files/agg_trans.csv')
-agg_user_df = pd.read_csv(r'csv_files/agg_user.csv')
-map_trans_df = pd.read_csv(r'csv_files/map_trans.csv')
-map_user_df = pd.read_csv(r'csv_files/map_user.csv')
-top_trans_dist_df = pd.read_csv(r'csv_files/top_trans_dist.csv')
-top_trans_pin_df = pd.read_csv(r'csv_files/top_trans_pin.csv')
-top_user_dist_df = pd.read_csv(r'csv_files/top_user_dist.csv')
-top_user_pin_df = pd.read_csv(r'csv_files/top_user_pin.csv')
+
+# get data
+agg_trans_df = query.data_frame('agg_trans')
+agg_user_df = query.data_frame('agg_user')
+map_trans_df = query.data_frame('map_trans')
+map_user_df = query.data_frame('map_user')
+top_trans_dist_df = query.data_frame('top_trans_dist')
+top_trans_pin_df = query.data_frame('top_trans_pin')
+top_user_dist_df = query.data_frame('top_user_dist')
+top_user_pin_df = query.data_frame('top_user_pin')
+
 
 # Session
 if 'options' not in st.session_state:
@@ -194,3 +198,4 @@ with st.container():
             mime='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet',
             key='excel'
         )
+
