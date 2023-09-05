@@ -8,7 +8,8 @@ from streamlit_player import st_player
 from PIL import Image
 import requests
 from streamlit_lottie import st_lottie
-from streamlit_pandas_profiling import st_profile_report
+
+# from streamlit_pandas_profiling import st_profile_report -streamlit-pandas-profiling==0.1.3
 
 agg_trans_df = pd.read_csv(r'csv_files/agg_trans.csv')
 agg_user_df = pd.read_csv(r'csv_files/agg_user.csv')
@@ -62,6 +63,17 @@ def load_lottie(url):
         return None
     return r.json()
 
+
+states = agg_trans_df['State'].unique()
+years = agg_trans_df['Year'].unique()
+quarters = agg_trans_df['Quarter'].unique()
+
+if 'states' not in st.session_state:
+    st.session_state['states'] = states
+if 'years' not in st.session_state:
+    st.session_state['years'] = years
+if 'quarters' not in st.session_state:
+    st.session_state['quarters'] = quarters
 # authenticator.logout('Logout', 'sidebar')
 
 
@@ -123,7 +135,7 @@ with st.container():
         delta='11%'
     )
 
-    style_metric_cards(background_color='#FFFF', border_radius_px=9, border_left_color='#7717AF')
+    style_metric_cards(background_color='200329', border_radius_px=9, border_left_color='#7717AF')
 
     add_vertical_space(2)
 
@@ -151,8 +163,8 @@ with st.container():
         if show_profile:
             df_name = st.session_state['options'][option]
             df = globals()[df_name]
-            pr = ProfileReport(df)
-            st_profile_report(pr)
+            pr = ProfileReport(df, explorative=True)
+            st.write(pr)
 
         if show_dataset:
             st.data_editor(

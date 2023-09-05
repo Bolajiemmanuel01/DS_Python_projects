@@ -5,16 +5,9 @@ from streamlit_extras.add_vertical_space import add_vertical_space
 agg_trans = trans_df = trans_df_2 = st.session_state['agg_trans_df']
 map_df = st.session_state['map_trans_df']
 
-states = agg_trans['State'].unique()
-years = agg_trans['Year'].unique()
-quarters = agg_trans['Quarter'].unique()
-
-if 'states' not in st.session_state:
-    st.session_state['states'] = states
-if 'years' not in st.session_state:
-    st.session_state['years'] = years
-if 'quarters' not in st.session_state:
-    st.session_state['quarters'] = quarters
+states = list(agg_trans['State'].unique())
+years = list(agg_trans['Year'].unique())
+quarters = list(agg_trans['Quarter'].unique())
 
 # Page Development
 

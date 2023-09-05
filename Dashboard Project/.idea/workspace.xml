@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="069c853f-9c3b-4ed7-9e42-3aad3d16cf69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Images_and_logo/Home_SQL.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images_and_logo/Login_form.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1__Home.py" beforePathEscaped="$PROJECT_DIR$/1_🔔_Home.py" beforeDir="false" afterPath="$PROJECT_DIR$/1__Home.py" afterPathEscaped="$PROJECT_DIR$/1_🔔_Home.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day1.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generate_keys.py" beforeDir="false" afterPath="$PROJECT_DIR$/Images_and_logo/generate_keys.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/query.py" beforeDir="false" afterPath="$PROJECT_DIR$/Images_and_logo/query.py" afterDir="false" />
-    </list>
+    <list default="true" id="069c853f-9c3b-4ed7-9e42-3aad3d16cf69" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,7 +18,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -52,7 +44,7 @@
       <recent name="C:\Users\a\OneDrive\Desktop\Github_projects\DS_Python_projects\Dashboard Project\Images_and_logo" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.generate_keys">
     <configuration name="generate_keys" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Dashboard Project" />
       <option name="INTERPRETER_OPTIONS" value="" />
