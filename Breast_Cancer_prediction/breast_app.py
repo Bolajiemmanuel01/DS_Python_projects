@@ -38,11 +38,13 @@ def display_results(predictions):
     if predictions == 'M':
         st.success("The tumor cell seems to be malignant and the patient needs to be treated as soon as possible.")
         st.warning(
-            "Be cautious as this is just a predictive model and dosen't always reflect the ground scenario, although the model has high accuracy. Please consult a specialized doctor for futher evaluation.")
+            "Be cautious as this is just a predictive model and dosen't always reflect the ground scenario, "
+            "although the model has high accuracy. Please consult a specialized doctor for futher evaluation.")
     else:
         st.success("The tumor cell seems to be benign and the patient dosen't require any cancer treatment")
         st.warning(
-            "Be cautious as this is just a predictive model and dosen't always reflect the ground scenario, although the model has high accuracy. Please consult a specialized doctor for futher evaluation.")
+            "Be cautious as this is just a predictive model and dosen't always reflect the ground scenario, "
+            "although the model has high accuracy. Please consult a specialized doctor for futher evaluation.")
 
 
 def get_description(column):
@@ -100,6 +102,25 @@ def main():
         if user_input_checkbox:
 
             input_data = pd.DataFrame(columns=x_test.columns)
+
+            num_features = len(x_test.columns)
+            num_columns = 3
+
+            input_cols = st.columns(num_columns)
+
+            input_values = []
+            for i in range(0, num_features, num_columns):
+                for j in range(num_columns):
+                    if i + j < num_features:
+                        column = x_test.columns[i + j]
+                        description = get_description(column)
+                        value = input_cols[j].text_input(
+                            column.replace('_', ' - ').title().replace('Se', 'Standard Error').replace(
+                                'Fractal - Dimension', 'Fractal Dimension'), help=description, value='')
+                        input_values.append(value)
+            st.markdown('#')
+            predict_button = st.button("Predict", key='predict')
+
     st.title('YES')
 
 

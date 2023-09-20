@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f21318c2-985c-4b4b-81d2-a19e11c5d00f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/breast_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/breast_app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classifier.pkl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scaler.pkl" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Dashboard Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Dashboard Project/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Dashboard Project/1__Home.py" beforePathEscaped="$PROJECT_DIR$/../Dashboard Project/1_🔔_Home.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Dashboard Project/1__Home.py" afterPathEscaped="$PROJECT_DIR$/../Dashboard Project/1_🔔_Home.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Dashboard Project/Images_and_logo/Home_SQL.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Dashboard Project/Images_and_logo/Home_SQL.py" afterDir="false" />
