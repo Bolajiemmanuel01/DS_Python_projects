@@ -6,6 +6,7 @@ import joblib
 from streamlit_lottie import st_lottie
 
 image = Image.open(r"Images/breast_ribbon.jpg")
+side_bar = Image.open(r"Images/sidebar_image.jpeg")
 
 
 @st.cache_resource
@@ -166,7 +167,28 @@ def main():
                     scaled_data = scale_data(selected_data, scaler)
                     predictions = predict_cancer(scaled_data, model)
                     display_results(predictions[0])
-            st.title('YES')
+
+    with st.sidebar:
+
+        st.image(side_bar, use_column_width=True)
+        st.title("ABOUT")
+        write_up = ("This is a Breast Cancer Prediction "
+                    "App powered by an SVC model. The app takes various features of a breast tumor as input and "
+                    "predicts "
+                    "whether the tumor is benign or malignant.")
+        st.markdown(f"<p style='text-align: justify;'>{write_up}</p>", unsafe_allow_html=True)
+        st.markdown("- Accuracy: 97.36%")
+        st.markdown("- False Negatives: 0.87%")
+
+        st.title('Performance Metrics:')
+        metrics_data = {
+            'Tumor Type': ['Benign', 'Malignant'],
+            'Precision': ['98%', '96%'],
+            'Recall': ['97%', '98%'],
+            'F1-Score': ['98%', '97%']
+        }
+        metrics = pd.DataFrame(metrics_data)
+        st.dataframe(metrics, hide_index=True)
 
 
 if __name__ == '__main__':
