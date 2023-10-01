@@ -1,6 +1,7 @@
 import mysql.connector
 from getpass import getpass
 import pandas as pd
+import streamlit as st
 
 ##connection
 password = getpass("Enter your password: ")
@@ -15,12 +16,14 @@ conn = mysql.connector.connect(
 cursor = conn.cursor()
 
 
+@st.cache_resource
 def view_all_data(df: str):
     cursor.execute(f"SELECT * FROM {df}")
     data = cursor.fetchall()
     return data
 
 
+@st.cache_resource
 def extract_column(df: str):
     cursor.execute(f'''
     SELECT column_name
@@ -34,6 +37,7 @@ def extract_column(df: str):
     return here
 
 
+@st.cache_resource
 def data_frame(df: str):
     result1 = view_all_data(df)
     result2 = extract_column(df)

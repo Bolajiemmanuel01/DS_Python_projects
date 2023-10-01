@@ -1,0 +1,15 @@
+credentials:
+  usernames:
+    Bolajiemmanuel01:
+      name: Emmanuel Bolaji
+      password: $2b$12$e94Pm9uUDYmV9cVpt8d6nOUnSPBpGvjv.Eajpk6YXvwEiWiQTsgTq
+    Miraayo:
+      name: Miracle Ayodeji
+      password: $2b$12$lwcgMKUdXIBUAxUkQDxVNeVU7uHPWlG5c4r34uPDr6gjQMEWGG2jC
+    Ants1:
+      name: Anita Smiles
+      password: $2b$12$ujT0rFmtTuqn9241iK0O4.BzMxR4azatIFmeQ8fo2yFL4OH8FzhoG
+cookie:
+  expiry_days: 0
+  key: "abcdef"
+  name: Dashboard

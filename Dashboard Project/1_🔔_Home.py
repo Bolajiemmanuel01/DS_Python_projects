@@ -57,6 +57,7 @@ for df_name in st.session_state['df_list']:
     globals()[df_name] = df
 
 
+@st.cache_resource
 def load_lottie(url):
     r = requests.get(url)
     if r.status_code != 200:
